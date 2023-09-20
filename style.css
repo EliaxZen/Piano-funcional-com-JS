@@ -118,3 +118,32 @@ body {
 .composer button:active {
   transform: scale(0.9);
 }
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+  #container {
+    padding: 10px;
+  }
+  
+  .n {
+    width: 40px;
+  }
+  .b {
+    width: 30px;
+    left: 25px;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 580px) {
+  #container {
+    padding: 20px;
+  }
+  
+  .n {
+    width: 45px;
+  }
+  .b {
+    width: 35px;
+    left: 27px;
+  }
+}
